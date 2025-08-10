@@ -1,0 +1,33 @@
+sudo apt update
+sudo apt install python3-pip
+sudo apt install python3.10-venv
+python3 -m venv airflow_snow_venv
+source airflow_snow_venv/bin/activate 
+sudo pip install apache-airflow
+pip install apache-airflow-providers-snowflake
+pip install snowflake-connector-python
+pip install snowflake-sqlalchemy
+airflow standalone
+
+Error Resolution
+    pip uninstall pydantic==2.0.2
+    pip install pydantic==1.10.10
+
+
+airflow api-server --host 0.0.0.0 --port 8080
+
+CTRL+C is used to shutdown Airflow server
+
+
+**************** Commands used in this Project ****************
+sudo apt update
+sudo apt install python3-pip
+sudo apt install python3.10-venv
+python3 -m venv airflow_venv
+sudo pip install pandas
+sudo pip install s3fs
+sudo pip install apache-airflow
+airflow standalone
+sudo apt  install awscli
+aws configure
+aws sts get-session-token
