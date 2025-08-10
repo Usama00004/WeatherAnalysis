@@ -12,7 +12,7 @@ The entire project is carried out on the **AWS Cloud Platform** and introduces k
 You can include an image like this (once you have it):
 
 ```markdown
-![Weather ETL Architecture](images/etl_architecture.png)
+![Weather ETL Architecture](https://github.com/Usama00004/WeatherAnalysis/blob/main/Images/Project_Architecture.jpg)
 
 ## 📌 Project Objectives
 
