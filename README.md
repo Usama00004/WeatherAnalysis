@@ -4,7 +4,7 @@ This is a hands-on data engineering project where we build and automate an ETL (
 
 The entire project is carried out on the **AWS Cloud Platform** and introduces key Airflow concepts such as **DAGs**, **Operators**, and **Sensors**.
 
----
+
 
 ## 📌 Project Objectives
 
@@ -15,7 +15,7 @@ The entire project is carried out on the **AWS Cloud Platform** and introduces k
 - Schedule and monitor the pipeline using Airflow DAGs
 - Deploy everything on AWS
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -26,7 +26,7 @@ The entire project is carried out on the **AWS Cloud Platform** and introduces k
 - **Docker** *(optional)* – For local Airflow environment
 - **AWS EC2 / MWAA** – Deployment options
 
----
+
 
 ## 📂 Project Structure
 
