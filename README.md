@@ -5,16 +5,11 @@ This is a hands-on data engineering project where we build and automate an ETL (
 The entire project is carried out on the **AWS Cloud Platform** and introduces key Airflow concepts such as **DAGs**, **Operators**, and **Sensors**.
 
 
-## 🖼️ Project Architecture
+## Project Architecture
 
-> Add a diagram here to illustrate your ETL pipeline flow.
+![Portfolio Screenshot](Images/Project_Architecture.jpg) 
 
-You can include an image like this (once you have it):
-
-```markdown
-![Weather ETL Architecture](https://github.com/Usama00004/WeatherAnalysis/blob/main/Images/Project_Architecture.jpg)
-
-## 📌 Project Objectives
+## Project Objectives
 
 - Extract real-time weather data from OpenWeatherMap API
 - Transform the data into a structured format (e.g., JSON or CSV)
@@ -25,7 +20,7 @@ You can include an image like this (once you have it):
 
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Apache Airflow** – Workflow orchestration
 - **Python** – Data extraction and transformation
