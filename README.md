@@ -5,6 +5,14 @@ This is a hands-on data engineering project where we build and automate an ETL (
 The entire project is carried out on the **AWS Cloud Platform** and introduces key Airflow concepts such as **DAGs**, **Operators**, and **Sensors**.
 
 
+## 🖼️ Project Architecture
+
+> Add a diagram here to illustrate your ETL pipeline flow.
+
+You can include an image like this (once you have it):
+
+```markdown
+![Weather ETL Architecture](images/etl_architecture.png)
 
 ## 📌 Project Objectives
 
@@ -28,19 +36,4 @@ The entire project is carried out on the **AWS Cloud Platform** and introduces k
 
 
 
-## 📂 Project Structure
 
-weather-etl-airflow/
-│
-├── dags/
-│ └── weather_etl_dag.py # Airflow DAG definition
-│
-├── scripts/
-│ ├── extract.py # Extract weather data from API
-│ ├── transform.py # Process and clean the data
-│ └── load.py # Upload data to AWS S3
-│
-├── requirements.txt # Python dependencies
-├── Dockerfile # (Optional) Docker environment
-├── docker-compose.yaml # (Optional) Local Airflow setup
-└── README.md # Project documentation# WeatherAnalysis
